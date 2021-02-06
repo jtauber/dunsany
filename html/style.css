@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: 'Noto Serif';
+  font-size: 13pt;
+  line-height: 20pt;
+  margin: 0;
+}
+body.old {
+  color: #333;
+  text-shadow: 0 0 2px #333;
+  background: #FFE;
+  box-shadow: inset 0 0 10em 0 #FFB;
+}
+main {
+  margin: 3rem;
+  max-width: 37rem;
+  text-align: justify;
+  position: relative;  /* for page number positioning */
+}
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 18pt;
+  line-height: 24pt;
+  letter-spacing: 1px;
+  margin: 2em 0 1em 0;
+}
+h2 {
+  font-weight: normal;
+  font-size: 16pt;
+  line-height: 24pt;
+  margin: 2em 0 1em 0;
+}
+p {
+  margin: 0;
+  text-indent: 1em;
+}
+q::before {
+  content: '“';
+  padding: 0 0.1em;
+}
+q::after {
+  content: '”';
+  padding: 0 0.1em;
+}
+q.noclose::after {
+  content: '';
+}
+
+q q::before {
+  content: '‘';
+  padding: 0 0.1em;
+}
+q q::after {
+  content: '’';
+  padding: 0 0.1em;
+}
+q q.noclose::after {
+  content: '';
+}
+
+em {
+  font-style: italic;
+}
