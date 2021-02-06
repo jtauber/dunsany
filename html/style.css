@@ -15,11 +15,20 @@ body.old {
   background: #FFE;
   box-shadow: inset 0 0 10em 0 #FFB;
 }
+nav {
+  margin: 1rem 3rem;
+  max-width: 37rem;
+  text-align: center;
+}
+footer {
+  margin: 1rem 3rem;
+  max-width: 37rem;
+  font-size: 90%;
+}
 main {
   margin: 3rem;
   max-width: 37rem;
   text-align: justify;
-  position: relative;  /* for page number positioning */
 }
 h1 {
   font-weight: normal;
