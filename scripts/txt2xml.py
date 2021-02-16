@@ -117,8 +117,6 @@ B = [  # open single quote
     ('01_08', 23, 0, 1, 1),
     ('01_08', 23, 0, 42, 1),
     ('01_08', 26, 3, 8, 1),
-    ('01_08', 29, 0, 1, 1),
-    ('01_08', 31, 0, 1, 1),
     ('01_09', 5, 37, 48, 6),
     ('01_11', 18, 6, 0, 1),
     ('01_11', 18, 6, 36, 1),
@@ -143,7 +141,6 @@ C = [  # close single quote
     ('01_08', 23, 0, 12, 1),
     ('01_08', 23, 2, 43, 1),
     ('01_08', 26, 3, 30, 1),
-    ('01_08', 30, 0, 1, 1),
     ('01_09', 5, 38, 7, 6),
     ('01_11', 18, 6, 3, 1),
     ('01_11', 18, 6, 44, 1),
@@ -260,8 +257,7 @@ def convert_text(identifier):
 
 
 for story_num in range(17):
-    if story_num != 8:
-        convert_text(f"01_{story_num:02d}")
+    convert_text(f"01_{story_num:02d}")
 for story_num in range(16):
     convert_text(f"02_{story_num:02d}")
 for story_num in range(20):
