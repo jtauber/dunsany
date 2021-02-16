@@ -1,0 +1,43 @@
+text_groups:
+  - urn: "urn:cts:engLit:dunsany:"
+    node_kind: "textgroup"
+    name:
+      - lang: "eng"
+        value: "Lord Dunsany"
+    works:
+    - urn: 'urn:cts:engLit:dunsany.adt1910:'
+      group_urn: 'urn:cts:engLit:dunsany:'
+      node_kind: work
+      lang: grc
+      title:
+      - lang: eng
+        value: A Dreamer’s Tales (1910)
+      versions:
+      - urn: 'urn:cts:engLit:dunsany.adt1910.01_00:'
+        path: atlas-text/01_00.txt
+        node_kind: version
+        version_kind: edition
+        lang: eng
+        first_passage_urn: urn:cts:engLit:dunsany.adt1910.01_00:1-2
+        citation_scheme:
+        - paragraph
+        label:
+        - lang: eng
+          value: Preface
+        description:
+        - lang: eng
+          value: Extracted from Project Gutenberg
+      - urn: 'urn:cts:engLit:dunsany.adt1910.01_01:'
+        path: atlas-text/01_01.txt
+        node_kind: version
+        version_kind: edition
+        lang: eng
+        first_passage_urn: urn:cts:engLit:dunsany.adt1910.01_01:1-7
+        citation_scheme:
+        - paragraph
+        label:
+        - lang: eng
+          value: Poltarnees, Beholder Of Ocean
+        description:
+        - lang: eng
+          value: Extracted from Project Gutenberg
